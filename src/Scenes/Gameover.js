@@ -9,11 +9,11 @@ class Gameover extends Phaser.Scene {
 
     create() {
         // Create the tile backgrounds
-        this.forest = this.add.tileSprite(0, 0, game.config.width, game.config.height, 'forest').setOrigin(0, 0);
+        this.forest = this.add.tileSprite(0, 0, game.config.width, game.config.height, 'noColorForest').setOrigin(0, 0);
         let menuConfig = {
             fontFamily: 'Arial',
-            fontSize: '32px',
-            color: 'black',
+            fontSize: '64px',
+            color: 'green',
             align: 'center',
             padding: {
                 top: 5,
@@ -22,6 +22,8 @@ class Gameover extends Phaser.Scene {
             fixedWidth: 0
         }
         this.add.text(game.config.width / 2, game.config.height / 4, "Congrats!", menuConfig).setOrigin(0.5);
+        menuConfig.fontSize = '32px';
+        menuConfig.color = 'black';
         this.add.text(game.config.width / 2, game.config.height / 2, "Dillo has completed its journey!", menuConfig).setOrigin(0.5);
         this.add.text(game.config.width / 2, (game.config.height * 3) / 4, "Press SPACE to start again", menuConfig).setOrigin(0.5);
 

@@ -9,7 +9,7 @@ class Menu extends Phaser.Scene {
 
     create() {
         // Create the tile backgrounds
-        this.forest = this.add.tileSprite(0, 0, game.config.width, game.config.height, 'forest').setOrigin(0, 0);
+        this.forest = this.add.tileSprite(0, 0, game.config.width, game.config.height, 'noColorForest').setOrigin(0, 0);
         let menuConfig = {
             fontFamily: 'Arial',
             fontSize: '64px',

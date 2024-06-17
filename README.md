@@ -1,5 +1,5 @@
-**Starter Platformer**
-
-A Phaser 3 code framework for creating a bare-bones 2D platformer game.
-
-Visual assets provided by Kenny Assets [Pixel Platformer](https://kenney.nl/assets/pixel-platformer) asset pack, with gratitude. 
+# Dillo's Journey
+- Created by Daniel Do
+- Development, Design: Daniel Do
+- Art, Sound Effects: Kenney (https://kenney.nl/)
+> Made for UCSC's CMPM 120 "Platformer" course project

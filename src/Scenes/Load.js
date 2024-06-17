@@ -21,6 +21,7 @@ class Load extends Phaser.Scene {
 
         // background
         this.load.image("forest", "backgroundColorForest.png");
+        this.load.image("noColorForest", "backgroundForest.png");
 
         this.load.multiatlas("kenny-particles", "kenny-particles.json");
     }
