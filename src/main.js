@@ -31,11 +31,14 @@ let config = {
     },
     width: 1440,
     height: 720,
-    scene: [Load, Platformer]
+    scene: [Load, Menu, Platformer, Gameover]
 }
 
 var cursors;
+let coinCount = 0;
 const SCALE = 2.0;
-var my = {sprite: {}, text: {}};
+var my = {sprite: {}, text: {}, vfx: {}};
 
 const game = new Phaser.Game(config);
+
+let keySPACE;
